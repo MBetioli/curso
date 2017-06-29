@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "authors": [
+    "Mauricio Betioli <Mauricio@datamotion.com.br>"
+  ],
+  "description": "Exercicios para o curso de angular",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}

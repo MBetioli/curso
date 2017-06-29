@@ -1,0 +1,17 @@
+.cyan {
+    background-color: #1fb2de;
+    padding: 20px;
+}
+
+.green {
+    background-color: #34aa38;
+    padding: 20px;
+}
+
+.yellow {
+    background-color: #e3e333;
+    padding: 20px;
+}
+.mensagem {
+    color: white;
+}
