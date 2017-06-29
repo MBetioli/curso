@@ -1,16 +1,19 @@
+div{padding: 10px 40px; font-family: courier; height: 100px;}
+small{font-size: 12px; font-weight: bold; text-decoration: underline;}
+h3{
+	font-size: 14px; padding: 0px;
+}
+
 .cyan {
     background-color: #1fb2de;
-    padding: 20px;
-}
+  }
 
 .green {
     background-color: #34aa38;
-    padding: 20px;
 }
 
 .yellow {
     background-color: #e3e333;
-    padding: 20px;
 }
 .mensagem {
     color: white;

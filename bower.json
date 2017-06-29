@@ -1,7 +1,7 @@
 {
   "name": "app",
   "authors": [
-    "Mauricio Betioli <Mauricio@datamotion.com.br>"
+    "Mauricio Betioli <mbetioli@gmail.com>"
   ],
   "description": "Exercicios para o curso de angular",
   "main": "index.html",
