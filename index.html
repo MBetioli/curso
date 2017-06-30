@@ -1,37 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Angular Excercise</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>Broadcaste</title>
+
+    <link rel="stylesheet" href="style.css"/>
 </head>
+<body ng-app="customServiceApp">
 
+    <div id="div1" ng-controller="Secao1Ctrl">
+        <small>Controlador 1</small>
+        <h1>Total do Serviço: {{ total }}</h1>
+        <br/>
+        <button ng-click="incrementarValorTotalEm(1)">Incrementar Total do Serviço</button>
+    </div>
 
-	<style>
-        body {
-            background-color: #ccc;
-            padding: 50px;
-        }
-    </style>
+    <div id="div2" ng-controller="Secao2Ctrl">
+        <small>Controlador 2</small>
+        <h1>Total: {{ total }}</h1>
+    </div>
 
-<body ng-app="App">
-	<div ng-controller="WannaBuy">
-		<ul>
-			<li ng-repeat="item in items" >{{item.name}} - {{item.quantidade}}</li>
-		</ul>
-	</div>
-	<div ng-controller="AddItemCtrl">
-		<form ng-submit="addItem(item)">
-			<input type="text" ng-model="item.name">
-			<input type="number" ng-model="item.quantidade">
-			<input type="submit" value="Add">
-		</form>
-	</div>
-	<script src="bower_components/angular/angular.min.js"></script>
-	<script src="js/app.js"></script>
-	<script src="js/modules.js"></script>
-
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="app.js"></script>
 </body>
-
-
-
 </html>
